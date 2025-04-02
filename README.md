@@ -5,6 +5,7 @@ Data Architecture: Designing a Modern Data Warehouse Using Medallion Architectur
 ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
 Data Modeling: Developing fact and dimension tables optimized for analytical queries.
 Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
 SQL Development
@@ -13,6 +14,8 @@ Data Engineering
 ETL Pipeline Developer
 Data Modeling
 Data Analytics
+
+
 🛠️ Important Links & Tools:
 Everything is for Free!
 
@@ -23,6 +26,7 @@ Git Repository: Set up a GitHub account and repository to manage, version, and c
 DrawIO: Design data architecture, models, flows, and diagrams.
 Notion: Get the Project Template from Notion
 Notion Project Steps: Access to All Project Phases and Tasks.
+
 🚀 Project Requirements
 Building the Data Warehouse (Data Engineering)
 Objective
@@ -35,6 +39,7 @@ Integration: Combine both sources into a single, user-friendly data model design
 Scope: Focus on the latest dataset only; historization of data is not required.
 Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 BI: Analytics & Reporting (Data Analysis)
+
 Objective
 Develop SQL-based analytics to deliver detailed insights into:
 
@@ -45,23 +50,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 For more details, refer to docs/requirements.md.
 
-📂 Repository Structure
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+
 │
 ├── tests/                              # Test scripts and quality files
 │
